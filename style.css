@@ -1,7 +1,6 @@
 body {
     font-family: 'Times New Roman', serif;
     background-color: #f2d8d0; /* Soft pink background */
-    background-image: url("http://googleusercontent.com/image_generation_content/0");
     background-size: cover;
     background-repeat: no-repeat;
     color: #663399; /* Deep purple text color */
@@ -34,14 +33,35 @@ body {
     border-radius: 10px; /* Rounded corners */
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
     font-size: 24px;
-    color: #ff6699; /* Bright pink for timer */
+    color: #f64781; /* Bright pink for timer */
     font-weight: bold;
-    text-decoration: underline;
+    padding: 10px;
   }
 
   p {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.5;
     margin-top: 20px;
     text-align: justify;
+  }
+
+  .ga-maamli-regular {
+    font-size: 26px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .caveat-regular {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .oswald-regular{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
   }
