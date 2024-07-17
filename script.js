@@ -19,7 +19,7 @@ function timer() {
       const displayMinutes = minutes % 60;
       const displayHours = hours % 24;
   
-      const formattedTime = `${days}Days ${displayHours}Hrs ${displayMinutes}Mins ${displaySeconds}Sec`;
+      const formattedTime = `${days}Days ${displayHours}Hrs <br> ${displayMinutes}Mins ${displaySeconds}Sec`;
       document.getElementById('safeTimerDisplay').innerHTML = formattedTime;
     }, 1000);
   }

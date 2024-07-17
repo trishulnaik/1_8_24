@@ -26,17 +26,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 70vw;
     height: 100px;
     background-color: #f2d8d0; /* Soft pink background */
     border: 2px solid #993366; /* Deep purple border */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
-    font-size: 34px;
+    font-size: 30px;
     color: #f64781; /* Bright pink for timer */
     font-weight: bold;
-    padding: 10px;
-    line-height: 60px;
+    padding: 20px;
+    line-height: 50px;
   }
 
   p {
@@ -48,22 +48,24 @@ body {
 
   .ga-maamli-regular {
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
     font-family: "Ga Maamli", sans-serif;
-    font-weight: 400;
-    font-style: normal;
   }
   
   .caveat-regular {
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
   }
 
   .oswald-regular{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
   }
+
+  .great-vibes {
+    font-family: "Great Vibes", cursive;
+    font-weight: 700;
+    font-size: 40px;
+    border-bottom: 1px solid #663399;
+  }
+  
