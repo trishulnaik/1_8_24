@@ -1,5 +1,5 @@
 function timer() {
-  const targetDate = new Date("August 10, 2024 00:00:00"); // Replace with your target date
+  const targetDate = new Date("September 15, 2025 00:00:00"); // Replace with your target date
   const intervalId = setInterval(() => {
     const now = new Date();
     const differenceInMilliseconds = targetDate - now;

@@ -87,3 +87,55 @@ p {
 #image-container{
   object-fit: contain;
 }
+
+/* Giphy Container Styles */
+.giphy-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.giphy-wrapper {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.giphy-embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.giphy-attribution {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.giphy-attribution a {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.giphy-attribution a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .giphy-container {
+    max-width: 100%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+}
